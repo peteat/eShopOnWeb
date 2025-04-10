@@ -19,5 +19,5 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: ./main.bicep
-                  parameters: storageName=ghstorageTestPeteAZ400
+                  parameters: storageName=ghstoragepeteaz400
                   failOnStdErr: false
